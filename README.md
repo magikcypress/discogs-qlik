@@ -2,7 +2,7 @@
 
 [![License](https://img.shields.io/badge/license-ISC-blue.svg)](https://opensource.org/licenses/ISC)
 
-This is a [Qlik Sense mashup](https://qlik.dev/embed/foundational-knowledge/web-app-mashup-intro/) with Embed Objects. [Check limitation](https://qlik.dev/extend/extend-qlik-visualizations/supported-charts/) to object with Qlik Embed html web tag, Nebular.js and Insight Advisor API.
+This is a [Qlik Sense mashup](https://qlik.dev/embed/foundational-knowledge/web-app-mashup-intro/) with Embed Objects. [Check limitation](https://qlik.dev/extend/extend-qlik-visualizations/supported-charts/) to object with Qlik Embed html web tag.
 
 ## Getting Started
 
