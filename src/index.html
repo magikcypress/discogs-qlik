@@ -105,8 +105,8 @@
 
 <main>
 
-  <section class="py-5 text-center container">
-    <div class="row py-lg-5">
+  <section class="py-1 text-center container">
+    <div class="row py-lg-2">
       <div class="col-lg-10 col-md-12 mx-auto">
         <h1 class="fw-light">Discogs Data with Qlik Mashup</h1>
         <p class="lead text-body-secondary">Mix about <a href="https://www.discogs.com">Discogs</a> music website and <a href="https://qlik.dev/embed/">Qlik Sense embed</a>.</p>
@@ -116,24 +116,28 @@
 
   <div class="bg-body-tertiary">
     <div class="container">
-      <div class="mb-3">
-        <qlik-embed
-          ui="analytics/selections"
-          app-id="{{ APP_ID }}"
-        ></qlik-embed>
-      </div>
 
-      <div class="mb-3">
-        <div class="card shadow-sm">
-          <div class="viz-search">
-            <qlik-embed
-              ui="analytics/chart"
-              app-id="{{ APP_ID }}"
-              object-id="EvrQmM"
-            >
-          </div>
+      <div class="sticky-top">
 
+        <div class="mb-3">
+          <qlik-embed
+            ui="analytics/selections"
+            app-id="{{ APP_ID }}"
+          ></qlik-embed>
         </div>
+
+        <div class="mb-3">
+          <div class="card shadow-sm">
+            <div class="viz-search">
+              <qlik-embed
+                ui="analytics/chart"
+                app-id="{{ APP_ID }}"
+                object-id="EvrQmM"
+              >
+            </div>
+          </div>
+        </div>
+
       </div>
 
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
