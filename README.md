@@ -24,7 +24,7 @@ Change in index.html file
 ```js
     <script
       crossorigin="anonymous"
-      src="https://cdn.jsdelivr.net/npm/@qlik/embed-web-components"
+      src="https://cdn.jsdelivr.net/npm/@qlik/embed-web-components@1/dist/index.min.js"
       data-host="https://<tenant>.eu.qlikcloud.com"
       data-web-integration-id="<web_integration_id>"
       data-cross-site-cookies="false"
