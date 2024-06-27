@@ -14,7 +14,9 @@
       src="https://cdn.jsdelivr.net/npm/@qlik/embed-web-components"
       data-host="{{ TENANT_URL }}"
       data-web-integration-id="{{ WEB_INTEGRATION_ID }}"
-      data-cross-site-cookies="true"
+      data-cross-site-cookies="false"
+      data-auto-redirect="true"
+      data-access-token-storage="session"
     ></script>
 
     <link rel="stylesheet" type="text/css" href="./scss/custom.scss">
