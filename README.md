@@ -27,7 +27,7 @@ Change in index.html file
       src="https://cdn.jsdelivr.net/npm/@qlik/embed-web-components@1/dist/index.min.js"
       data-host="https://<tenant>.eu.qlikcloud.com"
       data-web-integration-id="<web_integration_id>"
-      data-cross-site-cookies="false"
+      data-cross-site-cookies="true"
       data-auto-redirect="true"
     ></script>
 ```
